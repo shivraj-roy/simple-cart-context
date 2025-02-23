@@ -26,7 +26,7 @@ Follow these instructions to set up and run the project on your local machine.
 
 1. Clone the repository:
    ```bash
-   git clone /path/to/your/repository.git
+   git clone https://github.com/shivraj-roy/simple-cart-context.git
    ```
 2. Navigate to the project directory:
    ```bash

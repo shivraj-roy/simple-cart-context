@@ -30,7 +30,7 @@ Follow these instructions to set up and run the project on your local machine.
    ```
 2. Navigate to the project directory:
    ```bash
-   cd simple-cart
+   cd simple-cart-context
    ```
 3. Install the dependencies:
    ```bash

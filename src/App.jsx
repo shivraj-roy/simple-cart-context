@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CartContext } from "./store/shopping-cart-context.jsx";
+import { CartContext } from "./context/shopping-cart-context.jsx";
 
 import Header from "./components/Header.jsx";
 import Shop from "./components/Shop.jsx";
@@ -69,14 +69,12 @@ function App() {
    const ctxValue = {
       items: shoppingCart.items,
       addItemToCart: handleAddItemToCart,
+      updateItemCartQuantity: handleUpdateCartItemQuantity,
    };
 
    return (
       <CartContext value={ctxValue}>
-         <Header
-            cart={shoppingCart}
-            onUpdateCartItemQuantity={handleUpdateCartItemQuantity}
-         />
+         <Header />
          <Shop />
       </CartContext>
    );
